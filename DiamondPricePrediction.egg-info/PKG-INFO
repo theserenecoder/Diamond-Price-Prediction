@@ -3,3 +3,9 @@ Name: DiamondPricePrediction
 Version: 0.0.1
 Author: Ashutosh
 Author-email: ashutoshsharmaengg@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: seaborn
+Requires-Dist: flask
+Requires-Dist: matplotlib

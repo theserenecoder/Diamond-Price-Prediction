@@ -1,14 +1,14 @@
 from setuptools import find_packages, setup
 from typing import List
 
-const = 'e .'
+const = '-e .'
 
 def get_requirements(file_path:str)->List[str]:
     requirements =[]
     
     with open(file_path) as file_obj:
-        requirement = file_obj.readlines()
-        [req.replace('\n','') for req in requirements]
+        requirements = file_obj.readlines()
+        requirements = [req.replace('\n','') for req in requirements]
         
         if const in requirements:
             requirements.remove(const)

@@ -1,7 +1,9 @@
 pandas
 numpy
-sklearn
+scikit-learn
 seaborn
 flask
+matplotlib
+xgboost
 
 #-e .
