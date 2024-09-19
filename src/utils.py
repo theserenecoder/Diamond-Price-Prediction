@@ -36,7 +36,7 @@ def evaluate_model(X_train, X_test, y_train, y_test, models):
             # Model prediction
             pred = model.predict(X_test)
             
-            # Model evaluation
+            # Model evaluation 
             r2 = r2_score(y_test,pred)
             
             # Saving the evaluation in report
@@ -47,7 +47,7 @@ def evaluate_model(X_train, X_test, y_train, y_test, models):
             
     except Exception as e:
         logging.error("Error during model_evaluate")
-        raise CustomException(e,sys)
+        raise CustomException(e,sys) 
     
 def load_object(file_path):
     
